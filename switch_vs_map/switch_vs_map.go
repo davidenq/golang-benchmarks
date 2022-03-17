@@ -1,4 +1,5 @@
-package golang_benchmarks
+package switch_vs_map
+
 
 func withSwitch(text string) string {
 	message := ""
@@ -72,3 +73,4 @@ func withMap(text string) string {
 	}
 	return message[text]
 }
+

@@ -1,4 +1,4 @@
-package golang_benchmarks
+package switch_vs_map
 
 import (
 	"testing"
